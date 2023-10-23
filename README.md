@@ -13,7 +13,8 @@ This batch script is designed to request administrator privileges and optimize a
 
 ### Note
 - The script uses the User Account Control (UAC) mechanism to request administrative privileges. If the UAC prompt does not appear, try running the script by right-clicking on it and selecting 'Run as administrator'.
-- The drive to be optimized is currently set to 'C' drive. If you want to optimize a different drive, modify the `-DriveLetter` parameter in the PowerShell command accordingly.
+- The drive to be optimized is currently set to 'C' drive. If you want to optimize a different drive,
+  modify the `-DriveLetter` parameter in the PowerShell command accordingly.
 
 ### Caution
 - Exercise caution when granting administrative privileges to batch scripts. Only run scripts from trusted sources to ensure the security of your system.
